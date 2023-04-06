@@ -1,0 +1,2 @@
+last_elemenet([X],X).
+last_elemenet([_|T],X):-last_elmenet(T,X).
